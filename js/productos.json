@@ -1,8 +1,8 @@
 [
     {
         "id": "calza-01",
-        "titulo": "Calza Seamless",
-        "imagen": "../img/calzas/calza-sincostura.jpg",
+        "titulo": "Calza Line",
+        "imagen": "../img/calzas/calza-raya.jpg",
         "categoria": {
             "nombre": "Calzas",
             "id": "calzas"
