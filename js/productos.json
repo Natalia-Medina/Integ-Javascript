@@ -1,0 +1,122 @@
+[
+    {
+        "id": "calza-01",
+        "titulo": "Calza Seamless",
+        "imagen": "../img/calzas/calza-sincostura.jpg",
+        "categoria": {
+            "nombre": "Calzas",
+            "id": "calzas"
+        },
+        "precio": 24000
+    },
+    {
+        "id": "calza-02",
+        "titulo": "Calza degrade",
+        "imagen": "../img/calzas/calza-degrade.jpg",
+        "categoria": {
+            "nombre": "Calzas",
+            "id": "calzas"
+        },
+        "precio": 28000
+    },
+    {
+        "id": "calza-03",
+        "titulo": "Calza Cruz",
+        "imagen": "../img/calzas/calza-cruz.jpg",
+        "categoria": {
+            "nombre": "Calzas",
+            "id": "calzas"
+        },
+        "precio": 34000
+    },
+    {
+        "id": "Top-01",
+        "titulo": "Top Spring",
+        "imagen": "../img/top/hero-tops.jpg",
+        "categoria": {
+            "nombre": "Tops",
+            "id": "tops"
+        },
+        "precio": 14500
+    },
+    {
+        "id": "Top-02",
+        "titulo": "Top Corset",
+        "imagen": "../img/top/top-corset.jpg",
+        "categoria": {
+            "nombre": "Tops",
+            "id": "tops"
+        },
+        "precio": 15600
+    },
+    {
+        "id": "Top-03",
+        "titulo": "Top Glam",
+        "imagen": "../img/top/top-mangalargaraya.jpg",
+        "categoria": {
+            "nombre": "Tops",
+            "id": "tops"
+        },
+        "precio": 24000
+    },
+    {
+        "id": "campera-01",
+        "titulo": "Campera Coral",
+        "imagen": "../img/campera/campera-coral.jpg",
+        "categoria": {
+            "nombre": "Camperas",
+            "id": "camperas"
+        },
+        "precio": 40000
+    },
+    {
+        "id": "campera-02",
+        "titulo": "Campera B&W",
+        "imagen": "../img/campera/campera-blackandwhite.jpg",
+        "categoria": {
+            "nombre": "Camperas",
+            "id": "camperas"
+        },
+        "precio": 35000
+    },
+    {
+        "id": "campera-03",
+        "titulo": "Campera Orange",
+        "imagen": "../img/campera/campera-orange.jpg",
+        "categoria": {
+            "nombre": "Camperas",
+            "id": "camperas"
+        },
+        "precio": 25000
+    },
+    {
+        "id": "short-01",
+        "titulo": "Biker V",
+        "imagen": "../img/short/biker-v.jpg",
+        "categoria": {
+            "nombre": "Shorts",
+            "id": "shorts"
+        },
+        "precio": 25000
+    },
+    {
+        "id": "short-02",
+        "titulo": "Short Orange",
+        "imagen":  "../img/short/hero-short.jpg",
+        "categoria": {
+            "nombre": "Shorts",
+            "id": "shorts"
+        },
+        "precio": 23000
+    },
+    {
+        "id": "short-03",
+        "titulo": "Short Seamless",
+        "imagen":  "../img/short/short-calza.jpg",
+        "categoria": {
+            "nombre": "Shorts",
+            "id": "shorts"
+        },
+        "precio": 25000
+    }
+]

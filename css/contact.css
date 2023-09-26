@@ -1,0 +1,207 @@
+/* CONTACTANOS */ 
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body,
+input,
+textarea {
+  font-family: "Poppins", sans-serif;
+}
+
+.container-contact {
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  padding: 2rem;
+  background-color: #e2d0d0;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form {
+  width: 100%;
+  max-width: 1000px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px 1px rgba(90, 70, 70, 0.8);
+  z-index: 10;
+  overflow: hidden;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.contact-form,
+.input-container {
+  background:  rgb(137, 95, 102);
+  background-color: #B78790;
+  position: relative;
+}
+
+.input-container {
+  border-radius: 20px;
+}
+
+.contact-form:before {
+  content: "";
+  position: absolute;
+  width: 26px;
+  height: 26px;
+  background-color: rgb(196, 162, 161)0;
+  transform: rotate(45deg);
+  top: 50px;
+  left: -13px;
+}
+
+form {
+  padding: 2rem 2rem;
+  z-index: 10;
+  overflow: hidden;
+  position: relative;
+}
+
+.title {
+  color: #fff;
+  font-weight: 500;
+  font-size: 1.5rem;
+  line-height: 1;
+  margin-bottom: 0.7rem;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: white; 
+}
+
+.input {
+  width: 100%;
+  outline: none;
+  border: 2px solid #fcfbfb;
+  background: none;
+  padding: 0.6rem 1.2rem;
+  color: #fff;
+  font-weight: 500;
+  font-size: 0.95rem;
+  letter-spacing: 0.5px;
+  border-radius: 25px;
+  transition: 0.3s;
+}
+
+textarea.input {
+  padding: 0.8rem 1.2rem;
+  min-height: 150px;
+  border-radius: 22px;
+  resize: none;
+  overflow-y: auto;
+}
+
+.btn-send {
+  padding: 0.6rem 1.3rem;
+  background-color: #ce9d9d;
+  border: 2px solid #ffffff;
+  font-size: 0.95rem;
+  color: rgb(146, 88, 87);
+  line-height: 1;
+  border-radius: 25px;
+  outline: none;
+  cursor: pointer;
+  transition: 0.3s;
+  margin: 0;
+}
+.btn-send:hover {
+  background-color: transparent;
+  color: #fff;
+}
+.contact-info {
+  padding: 2rem 2rem;
+  position: relative;
+}
+.contact-info .title {
+  color: #B78790;
+}
+.information {
+  display: flex;
+  color: #5c2f2f;
+  margin: 0;
+  font-size: 1rem;
+}
+.icon {
+  width: 28px;
+  margin-right: 0.7rem;
+}
+.social-media {
+  padding: 1rem 0 0 0;
+}
+.social-media p {
+  color: #B78790;
+}
+.social-icons {
+  display: flex;
+}
+.social-icons a {
+  width: 35px;
+  height: 35px;
+  border-radius: 5px;
+  background: linear-gradient(45deg, rgb(196, 162, 161), rgb(152, 86, 84));
+  color: #fff;
+  text-align: center;
+  line-height: 35px;
+  margin-right: 0.5rem;
+}
+@media (max-width: 550px) {
+  .form {
+    grid-template-columns: 1fr;
+  }
+  .container-contact {
+    padding: 1.5rem;
+  }
+  form,
+  .contact-info {
+    padding: 1.7rem 1.6rem;
+  }
+  .text,
+  .information,
+  .social-media p {
+    font-size: 0.8rem;
+  }
+  .title {
+    font-size: 1.15rem;
+  }
+  .social-icons a {
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+  }
+
+}
+
+.input-container, input:focus {
+  outline: none;
+}
+
+.input-container.ok input {
+  border: 0.1px solid;
+  border-color: #08ffc8;
+}
+.input-container.falla input {
+  border: 0.1px solid;
+  border-color: #602925;
+}
+.input-container p {
+  visibility: hidden;
+  
+  font-size: small;
+  font-weight: 500;
+  text-align: left;
+}
+
+.input-container.falla p {
+  visibility: visible;
+  color:#472521;
+}

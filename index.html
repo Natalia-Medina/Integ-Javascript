@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MAKTUB</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <img src="./img/logomaktub.png" alt="logo">
+        <div class="navMenu">
+            <nav class="nav" id="nav">
+                <button class="closeMenu" id="closeMenu"><i class="bi bi-x-circle"></i></button>
+                <ul class="navList">
+                    <li class="itemList"><a href="">Inicio</a></li>
+                    <li class="itemList"><a href="./Paginas Secundarias/productos.html">Productos</a></li>
+                    <li class="itemList"><a href="./Paginas Secundarias/guia-de-talles.html">Guia de talles</a></li>    
+                    <li class="itemList"><a href="./Paginas Secundarias/contacto.html">Contacto</a></li>
+                    <li class="itemList"><a href="./Paginas Secundarias/carrito.html">Carrito</a></li>
+                </ul>
+            </nav>
+            
+            <button class="openMenu" id="openMenu"><i class="bi bi-list"></i></button>
+        </div>
+    </header>
+    <!-- HERO -->
+    <div class="hero">
+        <!-- Primera fila carrusel -->
+        <div id="carouselIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./img/Hero/hero-img1.jpg" class="d-block w-100" alt="imagen-hero">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/Hero/hero-img2.jpg" class="d-block w-100" alt="imagen-hero">
+                </div>
+                <div class="carousel-item">
+                    <img src="./img/Hero/hero-img3.jpg" class="d-block w-100" alt="imagen-hero">
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+            </button>
+        </div>
+        <!-- Segunda fila con los 4 contenedores -->
+        <div class="container-fluid mt-4">
+            <div class="row">
+                <div class="col-6 col-md-3 card">
+                    <a href="Paginas secundarias/Camperas.html">
+                        <div class="card">
+                            <img src="./img/Campera/hero-campera.jpg" class="card-img-campera" alt="Imagen-campera">
+                            <div class="card-body">
+                                <h5 class="card-title"><strong>Camperas y Buzos</strong></h5>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-6 col-md-3 card">
+                    <a href="Paginas secundarias/tops.html">
+                        <div class="card">
+                            <img src="./img/Top/hero-tops.jpg" class="card-img-top" alt="Imagen-top">
+                            <div class="card-body">
+                                <h5 class="card-title"><strong>Tops y Remeras</strong></h5>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-6 col-md-3 card">
+                    <a href="Paginas secundarias/Pantalones.html">
+                        <div class="card">
+                            <img src="./img/Calzas/hero-calzas.jpg" class="card-img-calza" alt="Imagen-calza">
+                            <div class="card-body">
+                                <h5 class="card-title"><strong>Pantalones y Calzas</strong></h5>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-6 col-md-3 card">
+                    <a href="Paginas secundarias/short.html">
+                        <div class="card">
+                            <img src="./img/short/hero-short.jpg" class="card-img-short" alt="Imagen-short">
+                            <div class="card-body">
+                                <h5 class="card-title"><strong>Bikers y shorts</strong></h5>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- ABOUT -->
+    <section class="container-services">
+        <div class="item-service-container">
+            <div class="icon-item"><i class="bi bi-truck"></i></div>
+            <div class="contenido-item">
+                <h3 class="h6 service-title"><strong>ENVIAMOS TU COMPRA</strong></h3>
+                <p>Entregas a todo el país</p>
+            </div>
+        </div>
+        <div class="item-service-container">
+            <div class="icon-item"><i class="bi bi-credit-card"></i></div>
+            <div class="contenido-item">
+                <h3 class="h6 service-title"><strong>PAGÁ COMO QUIERAS</strong></h3>
+                <p>Tarjetas de crédito o efectivo</p>
+            </div>
+        </div>
+        <div class="item-service-container">
+            <div class="icon-item"><i class="bi bi-lock"></i></div>
+            <div class="contenido-item">
+                <h3 class="h6 service-title"><strong>COMPRÁ CON SEGURIDAD</strong></h3>
+                <p>Tus datos siempre protegidos</p>
+            </div>
+        </div>
+    </section>
+    <!-- FOOTER-->
+    <footer class="pie-pagina">
+        <div class="grupo-1">
+            <div class="box">
+                <figure>
+                    <a href="index.html">
+                        <img src="./img/logomaktub.png" alt="Logo de Maktub">
+                    </a>
+                </figure>
+            </div>
+            <div class="box">
+                <h2><strong>SOBRE NOSOTROS</strong></h2>
+                <p>En Maktub, celebramos la fuerza y la libertad de cada mujer. Somos una marca de indumentaria
+                    deportiva que combina rendimiento y estilo para mujeres audaces y auténticas.</p>
+                <p>Nos inspira la diversidad y la singularidad de cada mujer.</p>
+            </div>
+            <div class="box">
+                <h2><strong>SIGUENOS</strong></h2>
+                <div class="red-social">
+                    <a href="#" class="fa fa-facebook" aria-hidden="true"><i class="bi bi-facebook"></i></a>
+                    <a href="#" class="fa fa-instagram" aria-hidden="true"><i class="bi bi-instagram"></i></a>
+                    <a href="#" class="fa fa-twitter" aria-hidden="true"><i class="bi bi-twitter-x"></i></a>
+                    <a href="#" class="fa fa-threads" aria-hidden="true"><i class="bi bi-threads"></i></a>
+                </div>
+                <h2><strong>CONTACTO</strong></h2>
+                <address>
+                    <p><i class="bi bi-geo-alt"></i> Olavarria 2500, Mar del Plata</p>
+                    <p><i class="bi bi-whatsapp"></i> (223) 456-7890</p>
+                    <p><i class="bi bi-envelope-at"></i> <a href="mailto:correo@maktub.com">correo@maktub.com</a></p>
+                </address>
+            </div>
+        </div>
+        <div class="grupo-2">
+            <small>© 2021 <b>Maktub</b> - Todos los Derechos Reservados.</small>
+        </div>
+    </footer>
+    <script src="./js/index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

@@ -1,0 +1,263 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+}
+
+header img {
+    width: 120px;
+    left: 0;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(113, 74, 81);
+    padding: 1rem;
+}
+
+.navMenu {
+    display: flex;
+    font-size: 15px;
+    gap: 5px;
+}
+
+.nav,
+.navSearch,
+.cartMenu,
+.navList {
+    display: flex;
+    align-items: center;
+}
+
+.navSearch button {
+    margin-right: 5px;
+}
+
+.inputSearch {
+    width: 70px;
+    background: transparent;
+    border: none;
+    margin-right: 0;
+}
+
+.navMenu button {
+    font-size: 20px;
+    background: transparent;
+    border: none;
+    color: #DEA4AF;
+}
+
+.quantityCart {
+    position: relative;
+    background-color: #e4b9c1;
+    border-radius: 50%;
+    color: rgb(113, 74, 81);
+    font-size: 10px;
+    padding: 1px 4px;
+    top: -4px;
+    right: 10px;
+}
+
+.navList {
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+}
+
+.itemList a {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #DEA4AF;
+}
+
+/* GUIA DE TALLES*/
+.img-guide {
+    max-width: 100%; 
+    height: 100%; 
+    display: block; 
+    margin: 0 auto; 
+}
+.cartMenu a{
+    text-decoration: none;
+    color: #DEA4AF;
+    cursor: pointer;
+}
+
+.openMenu,
+.closeMenu {
+    display: none;
+}
+
+@media screen and (max-width: 580px) {
+    .openMenu,
+    .closeMenu {
+        display: block;  
+    }
+
+    .nav {
+        opacity: 0;
+        visibility: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 1rem;
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        padding: 1rem;
+        width: 40%;
+        background-color: rgb(66, 26, 24);
+        box-shadow: 0 0 0 100vmax rgb(113, 74, 81, .5);
+        z-index: 1000; 
+    }
+    .nav.visible {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    .navList {
+        flex-direction: column;
+        align-items: flex-end;
+        gap: 15px;
+        
+    }
+    .navList li a, 
+    .navList button {
+        color: white;
+    }
+
+}
+
+
+/* SEGUNDA FILA CARRUSEL */
+.card a {
+    text-decoration: none;
+    color: #555;
+}
+
+/* PRODUCTOS */
+
+
+/* ABOUT */
+.container-services {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.item-service-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-item {
+    font-size: 70px;
+    justify-content: end;
+    align-items: center;
+    padding: 10px;
+}
+
+@media screen and (max-width:550px) {
+    .container-services {
+        flex-direction: column;
+    }
+}
+
+/* FOOTER */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.pie-pagina {
+    width: 100%;
+    background-color: rgb(113, 74, 81);
+}
+
+.pie-pagina .grupo-1 {
+    width: 100%;
+    max-width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 50px;
+    padding: 45px 0px;
+}
+
+.pie-pagina .grupo-1 .box figure {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pie-pagina .grupo-1 .box figure img {
+    width: 250px;
+}
+
+.pie-pagina .grupo-1 .box h2 {
+    color: #fff;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.pie-pagina .grupo-1 .box p {
+    color: #fff;
+    margin-left: 5px;
+    margin-bottom: 5px;
+}
+
+.pie-pagina .grupo-1 .red-social a {
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: rgb(113, 74, 81);
+    text-align: center;
+    transition: all 300ms ease;
+}
+
+.pie-pagina .grupo-1 .red-social a:hover {
+    color: rgb(66, 26, 24);
+}
+
+.pie-pagina .grupo-2 {
+    background-color: #975c67;
+    padding: 15px 10px;
+    text-align: center;
+    color: #fff;
+}
+
+.pie-pagina .grupo-2 small {
+    font-size: 10px;
+}
+
+@media screen and (max-width:800px) {
+    .pie-pagina .grupo-1 {
+        width: 100%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 30px;
+        padding: 35px 0px;
+    }
+}
