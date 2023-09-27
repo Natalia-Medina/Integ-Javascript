@@ -30,7 +30,7 @@
         "precio": 34000
     },
     {
-        "id": "Top-01",
+        "id": "top-01",
         "titulo": "Top Spring",
         "imagen": "../img/top/hero-tops.jpg",
         "categoria": {
@@ -40,7 +40,7 @@
         "precio": 14500
     },
     {
-        "id": "Top-02",
+        "id": "top-02",
         "titulo": "Top Corset",
         "imagen": "../img/top/top-corset.jpg",
         "categoria": {
@@ -50,7 +50,7 @@
         "precio": 15600
     },
     {
-        "id": "Top-03",
+        "id": "top-03",
         "titulo": "Top Glam",
         "imagen": "../img/top/top-mangalargaraya.jpg",
         "categoria": {
