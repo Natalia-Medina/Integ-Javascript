@@ -30,22 +30,10 @@ header {
 }
 
 .nav,
-.navSearch,
 .cartMenu,
 .navList {
     display: flex;
     align-items: center;
-}
-
-.navSearch button {
-    margin-right: 5px;
-}
-
-.inputSearch {
-    width: 70px;
-    background: transparent;
-    border: none;
-    margin-right: 0;
 }
 
 .navMenu button {
@@ -53,17 +41,6 @@ header {
     background: transparent;
     border: none;
     color: #DEA4AF;
-}
-
-.quantityCart {
-    position: relative;
-    background-color: #e4b9c1;
-    border-radius: 50%;
-    color: rgb(113, 74, 81);
-    font-size: 10px;
-    padding: 1px 4px;
-    top: -4px;
-    right: 10px;
 }
 
 .navList {
@@ -77,6 +54,10 @@ header {
     margin-right: 10px;
     text-decoration: none;
     color: #DEA4AF;
+}
+
+.itemList a i {
+    font-size: 15px;
 }
 
 /* GUIA DE TALLES*/
@@ -138,15 +119,11 @@ header {
 
 }
 
-
 /* SEGUNDA FILA CARRUSEL */
 .card a {
     text-decoration: none;
     color: #555;
 }
-
-/* PRODUCTOS */
-
 
 /* ABOUT */
 .container-services {
